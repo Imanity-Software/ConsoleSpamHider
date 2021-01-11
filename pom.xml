@@ -16,4 +16,15 @@
 
     <name>ConsoleSpamHider</name>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>imanity-libraries</id>
+            <url>https://maven.imanity.dev/repository/imanity-libraries/</url>
+        </snapshotRepository>
+        <repository>
+            <id>imanity-libraries</id>
+            <url>https://maven.imanity.dev/repository/imanity-libraries/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
