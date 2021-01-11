@@ -1,0 +1,11 @@
+name: ConsoleSpamHider
+version: ${project.version}
+main: org.imanity.console.ConsoleSpamHider
+prefix: Imanity
+authors: [ LeeGod ]
+description: The plugin to hide specific message from console
+load: STARTUP
+commands:
+  csh-reload:
+    aliases: ["consolespamhider-reload"]
+    description: The Command to reload ConsoleSpamHider Configuration
